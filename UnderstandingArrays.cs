@@ -35,6 +35,7 @@ namespace UnderstandingArrays
             }
             Console.ReadLine();
             */
+            //翻转整个数组
             string zig = "You can get what you want out of life if you help enough other people get what they want.";
             char[] charArray = zig.ToCharArray();
             Array.Reverse(charArray);
