@@ -37,9 +37,9 @@ namespace UnderstandingArrays
             */
             //翻转整个数组
             string zig = "You can get what you want out of life if you help enough other people get what they want.";
-            char[] charArray = zig.ToCharArray();
-            Array.Reverse(charArray);
-            foreach (char zigChar in charArray)
+            char[] charArray = zig.ToCharArray();//将字符串转变为字符数组
+            Array.Reverse(charArray);//反转整个一维数组中元素的顺序
+            foreach (char zigChar in charArray)//数组遍历
             {
                 Console.Write(zigChar);
             }
