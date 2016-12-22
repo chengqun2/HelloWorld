@@ -22,6 +22,7 @@ namespace UnderstandingArrays
             */
             int[] num = new int[] { 4, 8, 15, 16, 23, 42 };
             string[] names = new string[] { "abc", "bcd", "cde", "def" };
+            int[] nums = { 1, 2, 3, 4, 5 };
             /*
             for (int i = 0; i < names.Length; i++)
             {
